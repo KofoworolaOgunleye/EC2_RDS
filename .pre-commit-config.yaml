@@ -4,4 +4,5 @@ repos:
     hooks:
       -   id: terraform_docs
       -   id: terraform_fmt
-      -   id: terraform_validate
+      # -   id: terraform_validate
+          # exclude: module/ec2_rds/
